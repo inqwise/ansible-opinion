@@ -1,4 +1,5 @@
 environment_name: opinion
+opinion_dao_url: jdbc:mysql://mysql.opinion-stg.local:3306/opinion?characterset=utf8
 opinion_replication_dao_url: jdbc:mysql://mysql.opinion-stg.local:3306/opinion?characterset=utf8
 cms_dao_url: jdbc:mysql://mysql.opinion-stg.local:3306/opinion_cms?characterset=utf8
 market_dao_url: jdbc:mysql://mysql.opinion-stg.local:3306/market?characterset=utf8
@@ -6,3 +7,4 @@ office_dao_url: jdbc:mysql://mysql.opinion-stg.local:3306/office?characterset=ut
 internal_base_url: https://internal-opinion.s3.il-central-1.amazonaws.com
 private_domain: opinion.local
 external_domain: opinion.inqwise.com
+opinion_collector_url: http://opinion.opinion.local:8080/opinion-app-collector

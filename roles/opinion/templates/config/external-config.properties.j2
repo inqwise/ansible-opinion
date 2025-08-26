@@ -1,3 +1,8 @@
+opinion.dao.url = {{ opinion_dao_url }}
+opinion.dao.driver = com.mysql.cj.jdbc.Driver
+opinion.dao.username = {{ mysql_dao_username }}
+opinion.dao.password = {{ mysql_dao_password }}
+
 opinionReplication.dao.url = {{ opinion_replication_dao_url }}
 opinionReplication.dao.driver = com.mysql.cj.jdbc.Driver
 opinionReplication.dao.username = {{ mysql_dao_username }}
@@ -26,9 +31,9 @@ general.enableGoogleAnalytics = false
 #opinion.secureUrl = https://localhost:8443/deltaintegrity-opinion
 #website.url = http://www.deltaintegrity.com
 #customerZone.url = http://localhost:8080/deltaintegrity-customerzone
+opinion.collector.url = {{ opinion_collector_url }}
 #opinion.collector.url = http://localhost:8080/deltaintegrity-opinion-collector
-#opinion.collector.url = http://localhost:8080/deltaintegrity-opinion-collector
-#opinion.collector.secureUrl = https://localhost:8443/deltaintegrity-opinion-collector
+opinion.collector.secureUrl = {{ opinion_collector_url }}
 #htmlto.url = http://localhost:8080/deltaintegrity-htmlto
 api.url = {{ api_url }}
 
